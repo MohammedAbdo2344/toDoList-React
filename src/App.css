@@ -75,8 +75,9 @@ button span {
   border: 2px solid hsl(198, 1%, 29%);
 }
 
-li {
+li{
   text-align: left;
   position: relative;
   padding: 0.5rem;
+  justify-content: space-between;
 }
