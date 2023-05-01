@@ -6,7 +6,9 @@ function ToDoItem(props) {
         setIsDone(!isDone);
     }
     return (
-        <div onClick={handleClick}>
+        <div onClick={()=>{
+            handleClick()
+            }}>
             <li style={{textDecoration: isDone? "line-through":"none"}}>{props.text}</li>
         </div>
     )
